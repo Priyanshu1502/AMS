@@ -1,0 +1,37 @@
+import React from "react";
+import { BrowserRouter, Routes,Route} from 'react-router-dom';
+import "./Style.css";
+import "./components/home/Home.css";
+import "./components/notification/Notification.css";
+import "./components/chat/Chat.css";
+import "./components/connection/Connection.css";
+import "./components/login/Signup.css";
+import Header from './Header';
+import Home from "./components/home/Home";
+import Connection from "./components/connection/Connection";
+import Chat from './components/chat/Chat';
+import Notification from "./components/notification/Notification";
+import Search from "./components/search/Search";
+import Profile from "./components/profile/Profile";
+import Signup from "./components/login/Signup"
+
+const Routing=()=>{
+    return(
+        <BrowserRouter>
+                        
+            <Routes>
+                <Route path="/login" element={<Signup />} />
+
+                <Header />
+                <Route path="/" element={<Home />} /> 
+                <Route path="/connection" element={<Connection />} />
+                <Route path="/chat" element={<Chat />} />
+                <Route path="/notification" element={<Notification />} />
+                <Route path="/search" element={<Search />} />
+                <Route path="/profile" element={<Profile />} />
+
+            </Routes>
+        </BrowserRouter>
+    )};
+
+export default Routing;

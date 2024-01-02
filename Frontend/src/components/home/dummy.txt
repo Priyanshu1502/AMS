@@ -1,0 +1,127 @@
+<section className="usrPst">
+         <div className="myPost">
+            <div className="usrimage">
+                    <img src="./image/userpic.jpg" alt="user image" />
+                    </div>
+            <div className="usrName">
+                <NavLink to='/profile'><h3>Arjun Negi</h3></NavLink>
+                <p>Full stack web developer</p>
+            </div>
+            <div className="flw">
+                <h3>+Follow</h3>
+            </div>
+        </div>
+        <div className="detail">
+            <p>Crediting isn’t required, but linking back is greatly appreciated and allows image authors to gain exposure. You can use the following text:</p>
+        </div>
+        <div className="imgPrt">
+        <img src="./image/post1.jpg" alt="post" />
+        </div>
+        <div className="iconPost">
+            <span className="lke"><AiFillLike /> Like</span>
+            <span className="cmt"><FaComment /> Comment</span>
+            <span className="rpst"><BiRepost /> Repost</span>
+            <span className="snd"><BsSendFill /> Send</span>
+        </div>
+       </section>
+       <section className="usrPst">
+         <div className="myPost">
+            <div className="usrimage">
+                    <img src="./image/userpic.jpg" alt="user image" />
+                    </div>
+            <div className="usrName">
+                <NavLink to='/profile'><h3>Arjun Negi</h3></NavLink>
+                <p>Full stack web developer</p>
+            </div>
+            <div className="flw">
+                <h3>+Follow</h3>
+            </div>
+        </div>
+        <div className="detail">
+            <p>Crediting isn’t required, but linking back is greatly appreciated and allows image authors to gain exposure. You can use the following text:</p>
+        </div>
+        <div className="imgPrt">
+        <img src="./image/p2.jpg" alt="post" />
+        </div>
+        <div className="iconPost">
+            <span className="lke"><AiFillLike /> Like</span>
+            <span className="cmt"><FaComment /> Comment</span>
+            <span className="rpst"><BiRepost /> Repost</span>
+            <span className="snd"><BsSendFill /> Send</span>
+        </div>
+       </section>
+       <section className="usrPst">
+         <div className="myPost">
+            <div className="usrimage">
+                    <img src="./image/userpic.jpg" alt="user image" />
+                    </div>
+            <div className="usrName">
+                <NavLink to='/profile'><h3>Arjun Negi</h3></NavLink>
+                <p>Full stack web developer</p>
+            </div>
+            <div className="flw">
+                <h3>+Follow</h3>
+            </div>
+        </div>
+        <div className="detail">
+            <p>Crediting isn’t required, but linking back is greatly appreciated and allows image authors to gain exposure. You can use the following text:</p>
+        </div>
+        <div className="imgPrt">
+        <img src="./image/p2.jpg" alt="post" />
+        </div>
+        <div className="iconPost">
+            <span className="lke"><AiFillLike /> Like</span>
+            <span className="cmt"><FaComment /> Comment</span>
+            <span className="rpst"><BiRepost /> Repost</span>
+            <span className="snd"><BsSendFill /> Send</span>
+
+
+
+
+
+
+
+
+        <section className="usrPst">
+         <div className="myPost">
+            <div className="usrimage">
+                        <img src={usrImg} alt="user image" />
+                    </div>
+            <div className="usrName">
+                <NavLink to='/profile'><h3>{user}</h3></NavLink>
+                <p>{developer}</p>
+            </div>
+            <div className="flw">
+                <h3>+Follow</h3>
+                <h1>...</h1>
+            </div>
+        </div>
+        <div className="detail">
+            <p>{title}</p>
+        </div>
+        <div className="imgPrt">
+        <img src= {`./image/p${postImg}.jpg`} alt="post" />
+        </div>
+        <div className="iconPost">
+            <span className="lke"><AiFillLike /> Like</span>
+            <span className="cmt"><FaComment /> Comment</span>
+            <span className="rpst"><BiRepost /> Repost</span>
+            <span className="snd"><BsSendFill /> Send</span>
+        </div>
+       </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+       </section>

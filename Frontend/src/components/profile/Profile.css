@@ -1,0 +1,201 @@
+/* .all{
+    background-color: #FDF7E4;
+    top: -20px;
+    position: relative;
+} */
+.profile-container{
+position: relative;
+align-items: center;
+display: grid;
+justify-content: center;
+border: 1px solid black;
+border-radius: 10px;
+margin-top: 20px;
+margin-left: 200px;
+margin-right: 500px;
+max-height: 700px;
+}
+.profile-back{
+    position: relative;
+}
+.profile-back img{
+    max-width: 100%;
+    height: 300px;
+    width: 1185px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.profile-image{
+    position: relative;
+    top: -150px;
+    left: 40px;
+    max-width: 60%;
+}
+.profile-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.pen{
+    position: relative;
+    max-width: 5%;
+    top: -180px;
+    left: 890px;
+    
+}
+
+.profile-title{
+    position: relative;
+    top: -180px;
+    left: 25px;
+    max-width: 50%;
+    padding: 10px;
+}
+.profile-title h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+.profile-title a{
+    color: blue;
+    border: none;
+    text-decoration: none;
+}
+.profile-affiliation{
+    position: relative;
+    top: -275px;
+    left: 670px;
+    max-width: 30%;
+}
+.profile-open{
+    position: relative;
+    top: -195px;
+    left: 30px;
+    max-width: 14%;
+}
+.profile-open button{
+    text-decoration: none;
+    padding: 5px 15px;
+    color: white;
+    background-color: #0a66c2;
+    border-radius: 50px;
+    
+}
+.profile-open button:hover{
+    background-color: #004182;
+    transition: .25s;
+}
+/* .profile-more{
+    position: relative;
+    top: -230px;
+    left: 175px;
+    max-width: 14%;
+}
+.profile-more button{
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #0a66c2;
+    background-color: white;
+    border: 1px solid #0a66c2;
+    border-radius: 50px;
+}
+.profile-more button:hover{
+    background-color: rgba(112, 181, 249, 0.2);
+    border: 2px solid #0a66c2; 
+    box-shadow: inset 0 0 0 1px #0a66c2;
+    transition: 0.25s;
+} */
+.profile-suggest {
+    position: relative;
+    top: -200px;
+    left: 30px;
+    gap: 10px;
+}
+.profile-suggest ul{
+    list-style-type: none;
+}
+.profile-suggest li{
+    border: 1px solid black;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    max-width: 35%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+/*  Edit Profile */
+.edit-wrapper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+}
+.edit-container{
+    position: relative;
+    background-color: white;
+    padding: 20px 20px;
+    top: -500px;
+    left: 150px;
+    border-radius: 10px;
+    width: 1000px;
+    height: 600px;
+    overflow-y: scroll;
+}
+.edit-title{
+    border-bottom: 1px solid #000;
+}
+.edit-title h2{
+    font-size: 2em;
+}
+.edit-close{
+    position: relative;
+    top: -40px;
+    left: 920px;
+    max-width: 5%;
+}
+.edit-close button{
+    background-color: white;
+    border: none;
+    color: #000;
+    font-size: 1em;
+}
+.edit-name{
+    position: relative;
+    top: -30px;
+}
+.edit-name span{
+    position: relative;
+    top: 10px;
+}
+.edit-gender{
+    position: relative;
+    float: left;
+}
+.edit-gender label{
+    position: relative;
+    top: 10px;
+}
+#gender{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 200px;
+}
+.edit-location{
+    position: relative;
+    top: 75px;
+}
+.edit-location h2{
+    position: relative;
+    max-width: 10%;
+}
+.edit-location span{
+    position: relative;
+    top: 10px;
+}
+.edit-location input{
+    position: relative;
+}

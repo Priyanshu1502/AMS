@@ -1,0 +1,23 @@
+.notify
+{
+    grid-column:3/4;
+    width:100%;
+    background-color:white;
+    border-radius:10px 10px 0 0;
+}
+.noti
+{
+    border-bottom:1px solid black;
+    height:auto;
+    padding:20px;
+}
+.noti p
+{
+    font-size:20px;
+}
+.noti:hover
+{
+    background-color:#2ED68A;
+    /* opacity:0.9; */
+    color:white;
+}

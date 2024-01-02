@@ -1,0 +1,327 @@
+.hbody{
+    background-color:#F3F2EF;
+    display:grid;
+    grid-template-columns:5rem 1fr 2fr 1fr 5rem;
+    padding-top:20px;
+}
+
+/* userPost =>image and input=> */
+.userPost{
+grid-column:3/4;
+}
+.userPost{
+    height:auto;
+}
+
+/* start post work */
+.user_Post{
+    height:140px;
+    border-radius:10px;
+    background-color:white;
+}
+.uPost{
+    display:grid;
+    grid-template-columns:0.5rem 0.2fr 1.5fr 0.5rem;
+    padding-top:20px;
+}
+.usrimage img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    object-fit: center;
+    border:1px solid black;
+}
+.usrimage
+{
+    grid-column:2/3;
+    
+}
+.inputdata
+{
+    grid-column:3/4;
+    font-family: system-ui, sans-serif;
+}
+.inputdata input{
+    width:95%;
+    height:50px;
+    border-radius:30px;
+    padding:10px;
+    font-size:20px;
+    background-color: #F1EFEF;
+}
+.inputdata input::placeholder
+{
+    font-size:20px;
+    color:black;
+}
+.iconPost
+{
+    /* padding-top:10px; */
+    display:grid;
+    grid-template-columns:1rem 1fr 1fr 1fr 1fr 1rem;
+    top: -20px;
+}
+.iconPost .img {
+    grid-column:2/3;
+}
+.iconPost span
+{
+    font-size:20px;
+    cursor:pointer;
+    width:100%;
+    text-align:center;
+    
+}
+.iconPost span:hover
+{
+    text-decoration:underline;
+}
+.line
+{
+    margin:15px 0px;
+}
+
+/* user post view  */
+.usrPst{
+    width:100%;
+    height:650PX;
+    background-color:white;
+    border-radius:10px;
+    margin:15px 0px;
+}
+.myPost
+{
+    display:grid; 
+    grid-template-columns:1rem 1fr 6fr 1fr 1rem;
+    padding:10px 0;
+
+}
+.usrimage
+{
+    grid-column:2/3;
+}
+.usrName
+{
+    grid-column:3/4;
+}
+h3
+{
+    padding-top:10px;
+}
+.usrName a
+{
+    text-decoration:none;
+    color:black;
+    cursor:pointer;
+}
+.usrName a:hover
+{
+    text-decoration:underline;
+}
+.flw{
+    grid-column:4/5;
+}
+.flw h3
+{
+    color:blue;
+    cursor:pointer;
+    font-weight:700px;
+}
+.flw h3:hover
+{
+    border:1px solid blue;
+    padding:5px;
+    border-radius:10px;
+}
+.flw h1
+{
+text-align:center;
+font-size:30px;
+margin-top:-10px;
+cursor:pointer;
+}
+.detail
+{
+    padding:0px 10px 10px 10px;
+}
+.imgPrt
+{
+    width:100%;
+    height:460px;
+}
+.imgPrt img
+{
+    width:100%;
+    height: 440px;
+}
+.lke
+{
+ grid-column:2/3;
+}
+/* userprofile  */
+.userprofile
+{
+    grid-column:2/3;
+}
+.Upro
+{
+    width:90%;
+    height:auto;
+    background-color:white;
+    border-radius:10px;
+    position:sticky;
+    top: 5rem;
+    padding-bottom:20px;
+}
+.banner img
+{
+    width:100%;
+    height:80px;
+    object-fit: center;
+    border-radius:10px 10px 0 0;
+}
+.usrpic
+{
+    text-align:center;
+}
+.usrpic img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    object-fit: center;
+    border:1px solid black;
+    margin-top:-70px;
+}
+.usrData
+{
+    text-align:center;
+}
+.usrData a
+{
+    text-decoration:none;
+    color:black;
+    cursor:pointer;
+}
+.usrData a:hover
+{
+    text-decoration:underline;
+}
+.usrData p
+{
+    padding:0px 10px;
+}
+.hLine
+{
+    margin:10px 0 0 0;
+}
+.pstdata
+{
+    text-align:center;
+}
+.usrdata
+{
+    padding-left:20px;
+}
+.usrdata a
+{
+    text-decoration:none;
+    color:black;
+    cursor:pointer;
+}
+.usrdata a:hover
+{
+    text-decoration:underline;
+}
+.usrdata ul li
+{
+    list-style:none;
+    display:flex;
+}
+.usrdata span
+{
+    margin:10px;
+}
+/* userInfo */
+.userInfo
+{
+    grid-column:4/5;
+}
+.Uinfo
+{
+    width:90%;
+    height:auto;
+    background-color:white;
+    border-radius:10px;
+    position:sticky;
+    top: 5rem;
+    padding-bottom:20px;
+    margin-left: 30px;
+}
+.Uinfo .bdy, .online_con, .groups
+{
+    margin-left:20px;
+    margin-bottom:10px;
+}
+.Uinfo a
+{
+    text-decoration:none;
+    color:black;
+}
+.india
+{
+    display:flex;
+}
+.india img{
+    width:50%;
+}
+
+/* modal css */
+
+.modal-wrapper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+}
+.modal-container{
+    position: fixed;
+    margin-top: 100px;
+    max-width: 50%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 50px;
+}
+.close{
+    position: relative;
+    text-align: right;
+    top: -20px;
+}
+.close button{
+    text-decoration: none;
+    background-color: white;
+    border: none;
+}
+.modal-form{
+    position: relative;
+
+}
+.upload{
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.upload button{
+    text-decoration: none;
+    border: 3px solid #2ED68A;
+    border-radius: 50px;
+    font-size: 24px;
+    padding: 10px;
+}
+.upload button:hover{
+    color: white;
+    background-color: #2ED68A;
+    transition: 0.75s;
+}
